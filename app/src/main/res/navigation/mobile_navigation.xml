@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="id.ac.polbeng.srisalmiapahma.navigationdrawerapp.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="id.ac.polbeng.srisalmiapahma.navigationdrawerapp.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="id.ac.polbeng.srisalmiapahma.navigationdrawerapp.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_cart"
+        android:name="id.ac.polbeng.srisalmiapahma.navigationdrawerapp.CartFragment"
+        android:label="@string/menu_cart"
+        tools:layout="@layout/fragment_cart" />
+
+    <fragment
+        android:id="@+id/nav_map"
+        android:name="id.ac.polbeng.srisalmiapahma.navigationdrawerapp.MapFragment"
+        android:label="@string/menu_map"
+        tools:layout="@layout/fragment_map" />
+
+    <fragment
+        android:id="@+id/nav_hotel"
+        android:name="id.ac.polbeng.srisalmiapahma.navigationdrawerapp.HotelFragment"
+        android:label="@string/menu_hotel"
+        tools:layout="@layout/fragment_hotel" />
+</navigation>
